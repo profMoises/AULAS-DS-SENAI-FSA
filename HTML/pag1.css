@@ -1,0 +1,40 @@
+h1{
+
+    font-family: monospace;
+    text-align: center;
+    font-size: 30pt;
+
+}
+
+h2{
+
+    font-family: monospace;
+    font-size: 22pt;    
+}
+
+p{
+
+    text-align: justify;
+    font-style: italic;
+}
+
+
+img{
+
+    width: 200px;
+    height: 180px;
+    padding: 40px;
+    padding-left: 70px;
+   
+}
+
+
+a{
+    /*Tira o sublinhado do link*/
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 16pt;
+    text-align: center;
+    padding: auto;
+  
+}
