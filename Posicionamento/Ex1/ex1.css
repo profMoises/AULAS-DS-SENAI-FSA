@@ -1,0 +1,18 @@
+div{
+
+    background-color: darkgray;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+button{
+    /*
+        A propriedade display permite que você defina a maneira como determinado elemento HTML deve ser renderizado.
+        block faz com que o elemento HTML seja renderizado como bloco ocopuando 
+        todo espaço
+    */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
