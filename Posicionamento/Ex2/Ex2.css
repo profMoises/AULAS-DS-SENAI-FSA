@@ -1,0 +1,28 @@
+div{
+
+    background-color: darkgray;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /*
+        é usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele
+    */
+}
+
+button{
+
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   /*
+         O primeiro é quando o elemento com essa propriedade possui um elemento pai de valor diferente de static. Neste caso, ele terá este elemento pai como referência para ser posicionado. Todo elemento pai que tiver qualquer valor de position, menos o static, será a referência para posicionar o elemento filho absolute!
+   
+   */
+   bottom: 0;
+   right: 0;
+   left: 0;
+   top: 0;
+   margin: auto;
+ 
+}
