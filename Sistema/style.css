@@ -4,7 +4,6 @@
 
     padding: 0;
     margin: 0;
-    border: 0;
     box-sizing: border-box;
     /*O box-sizing com o valor border-box faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.*/
 }
@@ -14,7 +13,7 @@ body{
     font-family: "Sarala", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient( rgb(18, 17, 17) rgb(4, 241, 4) );
+ 
 }
 
 #titulo{
