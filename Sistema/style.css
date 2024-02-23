@@ -14,4 +14,11 @@ body{
     font-family: "Sarala", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background: linear-gradient( rgb(18, 17, 17) rgb(4, 241, 4) );
+}
+
+#titulo{
+
+    text-align: center;
+
 }
