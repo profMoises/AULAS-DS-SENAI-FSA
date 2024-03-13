@@ -1,0 +1,58 @@
+/*Reseta os parâmetros do navegador*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Plano de fundo*/
+nav{
+
+    background-color: #333;
+}
+/*Alinha lado a lado*/
+nav li {
+
+    display: inline-block;
+}
+
+nav li a {
+
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+   
+}
+
+nav li a:hover{
+
+    background-color: red;
+}
+
+.menu{
+
+    position: absolute;
+   box-shadow: 0 0 2px aliceblue;
+   display: none;
+}
+
+
+.menu a {
+
+            display: block;
+            color: black;
+}
+
+
+menu :hover{
+    background-color: red;
+}
+    
+
+.dropdown:hover .menu{
+
+    display: block;
+}
